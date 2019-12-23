@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tuan.tanloitravel.quanly"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <!--Them-->
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <permission android:name="android.permission.INTERNET" />
+    <permission android:name="android.permission.CAMERA" />
+
+    <!--Ket thuc them-->
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_ico"
+        android:roundIcon="@drawable/logo_ico"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="ExtraText">
+        <activity android:name=".ScanActivity"></activity>
+        <activity android:name=".TrangChuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

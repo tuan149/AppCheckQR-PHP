@@ -1,0 +1,17 @@
+<resources>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="turn_off_flashlight">off</string>
+    <string name="turn_on_flashlight">On</string>
+    <string-array name="array">
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+        <item>tuan</item>
+    </string-array>
+</resources>
